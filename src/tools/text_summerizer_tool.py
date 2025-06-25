@@ -36,7 +36,7 @@ class TextSummarizerTool(BaseTool):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        # Ollama setup - Fatih Bey'in diğer tool'larıyla aynı
+
         self._llm = ChatOllama(
             model="llama3",
             base_url="http://localhost:11434"
