@@ -7,3 +7,4 @@ dependency-injector~=4.47.1
 httpx~=0.28.1
 mcp~=1.9.3
 fastapi_mcp
+openai

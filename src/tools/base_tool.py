@@ -30,4 +30,3 @@ class BaseTool(ABC, BaseModel):
                 "parameters": self.parameters,
             },
         }
-
